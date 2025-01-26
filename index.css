@@ -1,0 +1,234 @@
+body{
+    border: 8px solid white;
+    position: relative;
+    width: 99%;
+    height: 97vh;
+    background-image: url(https://t3.ftcdn.net/jpg/02/05/87/60/360_F_205876015_hYYs7ugqoU8QAobSS3TbnGQ92qyS5gEc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 5px 5px 5px 5px;
+    /* position: fixed; */
+}
+.name{
+    /* background-color: azure; */
+    color: blueviolet;
+    text-shadow: 1px 1px white;
+    border: 2px solid white;
+    display: flex;
+    font-size: 30px;
+    margin-bottom: 70px;
+        align-items: flex-start;
+    font-weight: bolder;
+    font-family:cursive;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30vh;
+    
+}
+h1:hover{
+    /* height: 100px; */
+    text-shadow: 2px 2px yellow;
+    /* background-color: black; */
+    color: red;
+    transition-duration: 3s;
+    transition:all 3s 2s ease-in-out;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+h6{
+    color: yellow;
+    /* text-shadow: 1px 1px yellow; */
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    /* margin-top: 0%; */
+}
+h6:hover{
+    color: red;
+    cursor: pointer;
+    text-shadow: 1px 0.5px yellow;
+    transition-duration: 3s;
+    transition:all 3s 1s ease-in-out;
+    transform: scale(1.5);
+    /* transform: rotate(360deg); */
+    
+    
+}
+.types{
+    /* border: 5px solid #fff; */
+    height: 30px;
+    margin-top: 10px;
+    /* background-color: springgreen; */
+    
+    /* display: flex; */
+    
+    
+}
+ul{
+    /* transform: translate(-50%); */
+    color: aquamarine;
+    display: flex;
+    /* position: fixed; */
+    /* left: 50%; */
+    /* top: 10%; */
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3px ;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+a{
+    text-decoration: none;
+    color: darkturquoise;
+}
+
+
+.down{
+    border: 10px solid darkgreen;
+    background-color: black;
+    width: 99%;
+    height: 80%;
+    display: flex;
+}
+.s1{
+    border: 10px solid ;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    background-color: yellow;
+    width: 35%;
+    height: 100%;
+    margin: 20px 20px ;
+    background-image: url(https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_366/RX_THUMBNAIL/IMAGES/VENDOR/2024/7/2/dbbefbb3-59e7-44f2-b34e-143f337705e6_583207.jpg);
+    background-size:100% 80%;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    margin-left: 12%;
+    position: relative;
+}
+.s2{
+    border: 10px solid black;
+    background-color: yellow;
+    background-image:url(https://content.jdmagicbox.com/v2/comp/hyderabad/t2/040pxx40.xx40.200929150636.g3t2/catalogue/istah-shawarma-and-biryani-lakdi-ka-pool-khairatabad-hyderabad-restaurants-with-offers-0s8l1kwlwf.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 80%;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    
+    /* width: 48%;
+    height: 80%; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 20px ;
+}
+h2{
+    margin-top: 52%;
+    color:brown;
+    width: 180px;
+    height: 70px;
+    /* margin-bottom: 80%; */
+    /* padding-top: 100%; */
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    /* border: 3px solid ; */
+    margin-left: 3%;
+    /* margin-top: 50px; 
+    display: flex;
+    display: grid;
+    /* grid-template:60% 50% 50% 50% ; */
+    /* flex-direction: row; */
+    justify-content: flex-start;
+    align-items: left;
+    text-align: left;
+    
+    position: absolute;
+    line-height: 10vh;
+    top: 120px;
+    
+
+}
+
+span{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* bottom: ; */
+    padding-top: 400px;
+    margin-top: 6.5%;
+    margin-left:2%;
+    
+}
+.ad1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: brown;
+    position: relative;
+    width: 300px;
+    font-size: x-large;
+    margin-top: 275px;
+    top: 160px;
+
+    
+}
+.ad2{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: black;
+    position: relative;
+    width: 300px;
+    /* margin-bottom: 30px; */
+    margin-right: 40px;
+    /* margin-left: 100px; */
+}
+.s1:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    transition: all 0.2s  linear;
+    box-shadow: 5px 4px 10px 1px white;
+}
+.s2:hover{
+    transform: scale(1.06);
+    cursor: pointer;
+    transition: all 0.2s  linear;
+    box-shadow: 5px 4px 10px 1px white;
+}
+.foot{
+    display: flex;
+    border: 2px solid;
+    justify-content: flex-start;
+    /* margin-left: 50px; */
+    margin-bottom: 25px;
+    height: 10vh;
+    color: darkgreen;
+    text-shadow: 0.5px 1px white;
+    display: flex;
+    flex-direction: row;
+    text-align: end;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+i{
+    /* color: springgreen; */
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+    font-size: 24px;
+    margin: 20px ;
+    /* margin-top: 70px; */
+}
+i:hover{
+
+    text-shadow: 1px 1px black;
+}
